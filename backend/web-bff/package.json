@@ -1,0 +1,27 @@
+{
+  "name": "web-bff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.0"
+  }
+}

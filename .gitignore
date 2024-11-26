@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+yarn.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+frontend/web/node_modules/
+frontend/mobileApp/node_modules/
+backend/mobile-bff/node_modules/
+backend/web-bff/node_modules/
+backend/shared/node_modules/
+
+# Build files
+dist/
+build/
+
+# System files
+.DS_Store
+*.swp
+*.idea
+
+# Temporary files
+*.tmp
+*.temp

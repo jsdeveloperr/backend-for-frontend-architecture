@@ -1,0 +1,20 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["app/*"],
+      "@/Screens/*": ["app/Screens/*"],
+      "@/Context/*": ["app/Context/*"],
+      "@/Components/*": ["app/Components/*"],
+      "@/Types/*": ["app/Types/*"],
+      "@/Utils/*": ["app/Utils/*"],
+      "@/Layout/*": ["app/Layout/*"],
+    },
+    "jsx": "react-jsx"
+  }
+}

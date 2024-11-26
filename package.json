@@ -1,0 +1,23 @@
+{
+  "name": "backend-for-frontend-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "install:all": "make install",
+    "clean:all": "make clean",
+    "cache:clean": "make cache-clean",
+    "start:web": "make start-web",
+    "start:mobile": "make start-mobile",
+    "start:wbff": "make start-backend-web-bff",
+    "start:mbff": "make start-backend-mobile-bff",
+    "start:shared": "make start-shared",
+    "start:backend": "make start-backends",
+    "start:frontend": "make start-frontends"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
