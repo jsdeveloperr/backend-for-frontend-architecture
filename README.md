@@ -1,7 +1,7 @@
 ### Backend-for-Frontend (BFF) Architecture
 
 <p align="center">
-    <img src="https://github.com/jsdeveloperr/backend-for-frontend/blob/main/frontend/web/src/assets/backend-for-frontend.jpg" width="500" alt="Backend-for-Frontend (BFF) Architecture" />
+    <img src="https://github.com/jsdeveloperr/backend-for-frontend-architecture/blob/main/frontend/web/src/assets/backend-for-frontend.jpg" width="500" alt="Backend-for-Frontend (BFF) Architecture" />
 </p>
 
 ---
